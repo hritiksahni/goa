@@ -378,6 +378,10 @@ a:hover{
 	scrollbar-width: none;
 }
 
+.slider::-webkit-scrollbar { 
+    display: none;
+}
+
 
 .slider-small{
     display: flex;
