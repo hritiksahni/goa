@@ -2624,3 +2624,10 @@ margin: 0 auto;
 
 
     }
+
+
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    -ms-overflow-style: none;
+	scrollbar-width: none;
+}
