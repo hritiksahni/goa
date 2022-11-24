@@ -1,11 +1,11 @@
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     -ms-overflow-style: none;
 	scrollbar-width: none;
 }
 
 *::-webkit-scrollbar { 
-    display: none;  
+    display: none;  /* Safari and Chrome */
 }
 
 a{
@@ -30,7 +30,7 @@ a:hover{
     background-color: #0d182e;
     color: white;
     padding: 0.3em 1em;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 0.85rem;
 }
 
@@ -81,7 +81,7 @@ a:hover{
     font-size: 0.75rem;
     font-weight: 400;
     padding-top: 5px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     margin-bottom: 0;
 
 }
@@ -107,7 +107,7 @@ a:hover{
     width: 5.5em;
     font-size: 0.95rem;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     transition: 0.3s all;
     }
 .login-btn:hover{
@@ -125,7 +125,7 @@ a:hover{
     width: 7.5em;
     font-size: 0.95em;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     transition: 0.3s all;
     }
 .join-btn:hover{
@@ -160,6 +160,7 @@ a:hover{
     align-items: center;
     border:none;
     border-radius: 1em;
+    transition: 300ms;
 }
 .play{
     margin-left: 0.5em;
@@ -172,7 +173,7 @@ a:hover{
     padding-right: 0.8em;
     padding-left: 0.5em;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 0.9rem;
 }
 .header-play:hover{
@@ -180,7 +181,8 @@ a:hover{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,223,183,1) 0%, rgba(14,194,205,1) 100%);
     border-radius: 2em;
     color: black;
-    scale: 1.1;
+    scale: 1.05;
+
 }
 
 
@@ -371,7 +373,6 @@ a:hover{
     position: relative;
     max-width: 100%;
     /* max-height: 500px; */
-    
 
 }
 .slider{
@@ -385,7 +386,7 @@ a:hover{
 }
 
 .slider::-webkit-scrollbar { 
-    display: none;
+    display: none;  /* Safari and Chrome */
 }
 
 
@@ -533,7 +534,7 @@ a:hover{
     width: 50%;
 }
 .pokertext{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 700;
     font-size: 3rem;
     color: #fff;
@@ -542,7 +543,7 @@ a:hover{
     color: orange;
 }
 .pokertext1{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 400;
     font-size: 1.5rem;
     color: #fff;
@@ -748,7 +749,7 @@ gap: 1em;
 
 .game-slider-section{
     margin: 0;
-    padding: 0 6em;
+    padding: 0 3em;
     box-sizing: border-box;
     background-color: #0d182e;
     padding-top: 3em;
@@ -853,7 +854,7 @@ gap: 1em;
         color: #ffffff;
         font-size: 1.2rem;
         font-weight: 600;
-        letter-spacing: 4px;
+        letter-spacing: 1px;
     }
     
     .slider-box:hover .slider-img{
@@ -1076,7 +1077,7 @@ text-align: center;
     width: 9em;
     font-size: 1.1rem;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     transition: 0.3s all;
     }
 .badge-knowmore-btn:hover{
@@ -1094,7 +1095,7 @@ text-align: center;
     width: 7.5em;
     font-size: 1.1em;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     transition: 0.3s all;
     }
 .badge-join-btn:hover{
@@ -1158,7 +1159,7 @@ text-align: center;
     color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     display: flex;
     flex-direction: column;
     gap: 0.8em;
@@ -1186,7 +1187,7 @@ width: 11em;
 }
 .footer-email {
     color: rgba(255, 255, 255, 0.5);
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     background:rgba(203, 184, 114, 0.001);
     border: none;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -1221,7 +1222,7 @@ width: 11em;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     display: flex;
     flex-direction: column;
 }
@@ -1240,7 +1241,7 @@ width: 11em;
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight:400;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .footer-about-links a:hover,
@@ -1273,7 +1274,7 @@ width: 11em;
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     margin-bottom: 0;
 }
 .footer-down-text1 {
@@ -1758,7 +1759,6 @@ margin: 0 auto;
 
     width: 300px;
     height: 400px;
-    border: 5px solid white;
 
 }
 
@@ -2394,6 +2394,10 @@ margin: 0 auto;
     }
     
     @media(max-width:450px){
+
+        .main-header{
+            height: 4.5em;
+        }
     
         .header-right{
             padding-right: 0;
@@ -2403,16 +2407,220 @@ margin: 0 auto;
         }
         .logo{
             margin:0.5;
+            max-width: 7em;
+            max-height:7em;
         }
         .menu-open-logo{
             margin-left: 0.3em;
+            font-size: 1.1rem;
         }
         .login-join{
             margin-left: -1em;
         }
 
-        .section3{
-            height: 900px;
+        .login-btn{
+            width: 4.3em;
+            height: 2.3em;
         }
-    
+
+        .join-btn{
+            width: 5.7em;
+            height: 2.3em;;
+        }
+
+        .header-bottom{
+            height: 5.5em;
+        }
+
+
+        
+        .section3{
+            height: 700px;
+        }
+
+        .section3-part1{
+            padding: 0 0.7em;
+        }
+
+        .part1text1{
+            font-size: 1.5rem;
+        }
+
+        .part1text2{
+            font-size: 0.7rem;
+        }
+
+        .section3-part2{
+            padding: 0.5em;
+            padding-top: 2em;
+        }
+
+        .section3-video{
+            font-size: 2rem;
+        }
+
+        .diff-sports{
+            padding: 1em 0;
+            gap: 1em;
+        }
+        .diff-sports4{
+            gap: 1.5em;
+        }
+
+        .diff-sports3{
+            gap: 1.5em;
+        }
+
+        .diff-sports3 a:first-child{
+
+            display: none;
+        }
+
+        .diff-sports4 a:first-child{
+
+            display: none;
+        }
+        
+        .poker-left{
+            padding: 1em 1.5em 0 1.5em;
+        }
+
+        .poker{
+            height: 650px;
+        }
+
+        .poker-right-up{
+            gap: 5em;
+        }
+        
+        .poker-right-down{
+            gap: 5em;
+        }
+
+        .game-slider-section-text{
+            font-size: 1.4rem;
+        }
+
+        .slider-img{
+            height: 400px;
+        }
+
+        .crownimg{
+            width: 170px;
+            height: 170px;
+        }
+
+        .crown-text{
+            font-size: 2.1rem;
+            margin-top: -1.2em;
+        }
+
+        .turnover{
+            font-size: 1.2rem;
+        }
+        .K1{
+            font-size: 2.2rem;
+            width: 80px;
+        }
+        .benefit, .points{
+            font-size: 0.8rem;
+        }
+
+        .lower-badge{
+            font-size: 2.2rem;
+        }
+
+        .badge-1, .badge-2, .badge-3{
+            width: 270px;
+            height: 360px;
+        }
+
+        .badge-knowmore-btn{
+            width: 7.5em;
+            height: 2.5em;
+            font-size: 1rem;
+        }
+
+        .badge-join-btn{
+            width: 7em;
+            height: 2.5em;
+            font-size: 1rem;
+        }
+
+    }
+
+    @media(max-width:400px){
+
+        .header-play span{
+
+            font-size: 0.7rem;
+
+        }
+        .header-play .play{
+            margin-left: 0.2em;
+            height: 1.5em;
+            width: 1.5em;
+        }
+
+        .section3{
+            height: 750px;
+        }
+
+        .pokertext{
+            font-size: 1.5rem;
+        }
+
+        .pokertext1{
+            font-size: 1rem;
+        }
+
+        .poker-btn{
+            height: 2.5em;
+        }
+
+
+        .poker-right-up{
+            gap: 2em;
+        }
+        
+        .poker-right-down{
+            gap: 2em;
+        }
+
+        .withdrawals span, .liveevents span, .customer span, .refferal span{
+            font-size: 0.7rem;
+        }
+
+        .poker-icons{
+            width: 4em;
+            height: 4em;
+        }
+
+
+        .crownimg{
+            width: 150px;
+            height: 150px;
+        }
+
+        .crown-text{
+            font-size: 2rem;
+            margin-top: -1.2em;
+        }
+
+        .footer-logo-size{
+            width: 11em;
+        }
+
+        .footer-logo-text p{
+            font-size: 1.1rem;
+        }
+
+        .footer-about-head,.footer-contactus{
+            font-size: 1.1rem;
+        }
+        .footer-about-links a,.footer-contact-links a,.footer-down-text1s{
+            font-size: 0.9rem;
+        }
+
+
     }
