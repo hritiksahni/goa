@@ -69,6 +69,36 @@ a:hover{
     color: white;
     align-items: center;
 }
+
+.header-news img {
+    transition: transform .7s ease-in-out;
+}
+
+.header-news a:hover img{
+    transform: rotatey(180deg);
+}
+
+.header-news h6 {
+    transition: transform .7s ease-in-out;
+}
+
+
+.header-news a:hover h6{
+    margin-top: 0.2em;
+}
+
+
+.header-news a:nth-child(2) img {
+    width: 1.81em;
+}
+
+.header-news a:nth-child(2):hover img{
+
+    transform: rotate(360deg);
+}
+
+
+
 .news-main{
     display: flex;
     flex-direction: column;
@@ -182,7 +212,18 @@ a:hover{
     border-radius: 2em;
     color: black;
     scale: 1.05;
+}
 
+.header-play img:first-child{
+    display: none;
+}
+
+
+.header-play:hover img:first-child{
+    display: flex;
+}
+.header-play:hover img:nth-child(2){
+    display: none;
 }
 
 
@@ -628,11 +669,12 @@ gap: 1em;
 }
 
 .part1text1{
-    max-width: 1100px;
-    padding-top: 2em;
+    max-width: 1800px;
+    padding-top: 1.5em;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
+    letter-spacing: 2px;
 }
 
 .part1text2{
@@ -657,6 +699,7 @@ gap: 1em;
     align-items: center;
     font-size: 10em;
     font-weight: 800;
+    
 }
 
 @media(max-width:1300px){
@@ -2424,7 +2467,7 @@ margin: 0 auto;
         }
 
         .join-btn{
-            width:6em;
+            width: 5.7em;
             height: 2.3em;;
         }
 
@@ -2624,10 +2667,3 @@ margin: 0 auto;
 
 
     }
-
-
-*{
-    font-family: 'Merriweather Sans', sans-serif;
-    -ms-overflow-style: none;
-	scrollbar-width: none;
-}
